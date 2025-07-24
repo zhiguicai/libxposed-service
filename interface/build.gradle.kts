@@ -20,8 +20,8 @@ android {
     }
 
     compileOptions {
-        targetCompatibility = JavaVersion.VERSION_21
-        sourceCompatibility = JavaVersion.VERSION_21
+        targetCompatibility = JavaVersion.VERSION_17 // 生成的字节码兼容 Java 17
+        sourceCompatibility = JavaVersion.VERSION_17 // 源代码兼容 Java 17
     }
 
     publishing {
